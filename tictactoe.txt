@@ -21,13 +21,13 @@ class Tictactoe
     public static void operate()
     {
 
-        for(int x=0;x<9;x++)
+        for(int x=0;x<=9;x++)
         {  
 
-            if(x==8&&v==0)
+            if(x==9&&v==0)
             {
                  a="";b="";c="";d="";e="";f="";g="";h="";i="";
-                ob.operate();
+               // ob.operate();
                 break;
             }
 
